@@ -24,8 +24,8 @@
   },
   "eslintConfig": {
     "extends": "react-app",
-    "rules":{
-      "no-console": 2
+    "rules": {
+      "no-console": 1
     }
   },
   "browserslist": {
@@ -39,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "proxy": "http://localhost:4000",
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
